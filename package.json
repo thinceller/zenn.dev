@@ -1,0 +1,17 @@
+{
+  "name": "zenn.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preview": "zenn preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zenn-cli": "^0.1.134"
+  },
+  "packageManager": "pnpm@7.20.0"
+}
