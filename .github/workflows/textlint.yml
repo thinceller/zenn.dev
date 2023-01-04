@@ -14,8 +14,6 @@ jobs:
         with:
           node-version-file: '.tool-versions'
           cache: 'pnpm'
-      - uses: tsuyoshicho/action-textlint@v3
-        with:
-          github_token: ${{ secrets.github_token }}
-          reporter: github-pr-review
-          textlint_flags: "(articles|books)/**/*.md"
+      - run: pnpm install --frozen-lockfile
+      - name: Run textlint
+        run: pnpm textlint "(articles|books)/**/*.md"
