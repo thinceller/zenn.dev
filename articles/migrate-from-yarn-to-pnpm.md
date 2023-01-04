@@ -19,6 +19,8 @@ published_at: 2023-01-05 09:00
 - CI: GitHub Actions
 - ホスティング: Vercel
 
+https://blog.thinceller.net/posts/2021-11-25-nextjs-chakra-ui-mdx-blog
+
 # pnpm
 
 pnpmは速さや効率性、厳格さを特徴に掲げるNode.js向けのパッケージマネージャーです。
