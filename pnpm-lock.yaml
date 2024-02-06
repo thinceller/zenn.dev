@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   zenn-cli:
-    specifier: 0.1.150
-    version: 0.1.150
+    specifier: 0.1.153
+    version: 0.1.153
 
 devDependencies:
   textlint:
@@ -2532,8 +2532,8 @@ packages:
     engines: {node: '>=0.4'}
     dev: true
 
-  /zenn-cli@0.1.150:
-    resolution: {integrity: sha512-sf/oKEx8e74CyFQ4jwFMRKDyF9cVkDH3XrU1IhGddBvwpYYrFySZ5kKL3Wn0BVC7EiqVFMvoxjQ+nEGOoBCW9w==}
+  /zenn-cli@0.1.153:
+    resolution: {integrity: sha512-MLIdtRW2arQBuVCKlWrMF4eFZGkvmswrcc0OvgxmQs9w9/9rODfoyFK9nQQwrgyUwlxDzhUa/oAO6nks4GY5DA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dev: false
