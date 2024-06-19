@@ -1,4 +1,8 @@
 {
   "editor.formatOnSave": true,
   "textlint.autoFixOnSave": true,
+  "cSpell.words": [
+    "biomejs",
+    "moneyforward"
+  ],
 }
