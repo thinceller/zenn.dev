@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@8.12.1",
+  "packageManager": "pnpm@9.15.5",
   "dependencies": {
     "zenn-cli": "0.1.157"
   },
