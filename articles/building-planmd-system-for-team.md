@@ -108,9 +108,9 @@ root
     │   ├── story-template.md
     │   └── task-template.md
     └── stories/                  # ユーザーストーリーのファイル群
-        └── {story-id}/           # ユーザーストーリーID（例: 917）
+        └── {story-id}/           # ユーザーストーリーID（例: STORY-110）
             ├── story.md          # ストーリー全体の概要ファイル
-            └── {task-id}/        # タスクID（例: SGN-FY25-2012）
+            └── {task-id}/        # タスクID（例: TASK-1000）
                 └── plan.md       # タスクの実装計画ファイル
 ```
 
@@ -123,7 +123,7 @@ flowchart TD
 
     subgraph Planning["プランニングフェーズ"]
         PC["/plan コマンド実行"]
-        FU["要件の取得\n(Notion MCP or 手動入力)"]
+        FU["要件の取得(Notion MCP or 手動入力)"]
         INV["技術的な要件・制約の深掘り"]
         SM["story.md 作成"]
         CODE_INV["既存コードの調査"]
