@@ -12,7 +12,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.23.0",
   "dependencies": {
-    "zenn-cli": "0.2.10"
+    "zenn-cli": "0.4.5"
   },
   "devDependencies": {
     "textlint": "12.4.0",
